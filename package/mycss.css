@@ -1,0 +1,434 @@
+/* 
+██╗  ██╗ █████╗ ███╗   ██╗██████╗ ███████╗ ██████╗ ███╗   ███╗███████╗██╗    ██╗██╗   ██╗
+██║  ██║██╔══██╗████╗  ██║██╔══██╗██╔════╝██╔═══██╗████╗ ████║██╔════╝██║    ██║██║   ██║
+███████║███████║██╔██╗ ██║██║  ██║███████╗██║   ██║██╔████╔██║█████╗  ██║ █╗ ██║██║   ██║
+██╔══██║██╔══██║██║╚██╗██║██║  ██║╚════██║██║   ██║██║╚██╔╝██║██╔══╝  ██║███╗██║██║   ██║
+██║  ██║██║  ██║██║ ╚████║██████╔╝███████║╚██████╔╝██║ ╚═╝ ██║███████╗╚███╔███╔╝╚██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝ ╚══╝╚══╝  ╚═════╝  
+*/
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#navxx {
+    width: 100%;
+    /* height: 80px; */
+    overflow-x: scroll;
+    position: relative;
+}
+
+
+/* #navxx:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    z-index: 20;
+} */
+
+.box {
+    width: 170%;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.box1 {
+    background-color: #fff;
+    float: left;
+    font-size: 12px;
+    /* line-height: 50px; */
+    margin-right: 15px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.div {
+    overflow: hidden;
+}
+
+.abcdef {
+    position: fixed;
+}
+
+#ReadMore {
+    color: #275A38;
+}
+
+
+/* ul {
+    margin: 0;
+    padding: 0;
+} */
+
+.change {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.current {
+    border-bottom: 2px solid #60A8D8;
+}
+
+.horizon {
+    background-color: #275A38;
+    height: 4px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 横线 */
+
+.mybackground1 {
+    display: inline-block;
+    width: 100%;
+    /* height: 1000px; */
+    background-size: cover;
+    background-image: url(../image/mushroom.jpg);
+}
+
+#guide {
+    width: 75px;
+    height: 161px;
+}
+
+.mybackground2 {
+    height: 10.0938rem;
+    background-size: cover;
+    background-image: url(../image/aboutus.jpg);
+}
+
+.myfont {
+    color: #fff;
+    font-size: 12px;
+    /* top: 1.25rem; */
+    /* margin-bottom: 0.625rem; */
+}
+
+.MyFontSize {
+    line-height: 200%;
+    transform: scale(0.8);
+    display: inline-block;
+    font-size: 0.625rem;
+    color: #fff;
+    margin-left: -4%;
+    margin-top: -3%;
+}
+
+.HRpic {
+    height: 6rem;
+    width: 2.8125rem;
+}
+
+.format {
+    float: left;
+    position: relative;
+}
+
+.pic1 {
+    margin-left: 10%;
+    /* margin-top: 20px; */
+}
+
+.pic2 {
+    margin-left: 8%;
+    margin-top: 20%;
+}
+
+.pic3 {
+    margin-left: 8%;
+    margin-top: -10%;
+}
+
+.pic4 {
+    height: 3.75rem;
+    margin-left: 12%;
+    margin-top: 1.5625rem;
+    border-radius: 50%;
+}
+
+.pic5 {
+    height: 4.875rem;
+    margin-left: 12.5%;
+    margin-top: 1.25rem;
+    border-radius: 50%;
+}
+
+.pic6 {
+    height: 3.75rem;
+    margin-left: 10%;
+    margin-top: 1.875rem;
+    border-radius: 50%;
+}
+
+.pic7 {
+    /* height: 5.4375rem; */
+    width: 23%;
+    margin-left: 7%;
+    margin-top: 2.875rem;
+    border-radius: 50%;
+}
+
+.pic8 {
+    /* height: 6.6875rem; */
+    width: 30%;
+    margin-left: 8%;
+    margin-top: 1.875rem;
+    border-radius: 50%;
+}
+
+.pic9 {
+    /* height: 5.4375rem; */
+    width: 23%;
+    margin-left: 6%;
+    margin-top: 2.875rem;
+    border-radius: 50%;
+}
+
+.pos {
+    font-size: 0.625rem;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.WhiteFlowerMushroomAndEnokiMushroom {
+    margin-left: -13%;
+    margin-top: 5.8rem;
+}
+
+.HypsizygusMarmoreus {
+    margin-left: -15%;
+    margin-top: 6.3rem;
+}
+
+.hide,
+.hide1 {
+    display: none;
+}
+
+.navchecked {
+    display: block;
+}
+
+.rights {
+    margin-left: -50%;
+    width: 200%;
+    transform: scale(0.5);
+}
+
+.FirstRight {
+    margin-top: 1rem;
+}
+
+.SecondRight {
+    margin-top: -0.6rem;
+}
+
+hr {
+    color: #D8D8D8;
+    margin-top: 2.25rem;
+}
+
+.mynav {
+    float: left;
+    position: relative;
+    font-size: 0.5625rem;
+    margin-top: 1.1rem;
+    left: 0.625rem;
+}
+
+.mynav1 {
+    margin-left: 40px;
+    width: 500px;
+    height: 45px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    background-color: #EEE;
+    color: #5F615F;
+}
+
+.mynav1>ul>li {
+    font-size: 0.75rem;
+    float: left;
+    position: relative;
+    /* left: 10px; */
+    width: 14%;
+    height: 1.4375rem;
+    margin-top: 10px;
+    text-align: center;
+    border: rgb(70, 165, 243) solid 1px;
+    cursor: pointer;
+}
+
+.navchecked1 {
+    background-color: #155E0B;
+    color: white;
+}
+
+.txt {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 0.75rem;
+}
+
+.MyInfo {
+    color: #AFC1AD;
+    height: 8.0625rem;
+    background-color: #275A38;
+    margin-top: 1.125rem;
+}
+
+.lines {
+    float: left;
+    position: relative;
+}
+
+.FirstLine {
+    font-size: 0.75rem;
+    margin-top: 0.625rem;
+    left: 0.9rem;
+}
+
+.SecondLine {
+    transform: scale(0.5);
+    margin-top: -0.375rem;
+    left: -9.375rem;
+    width: 175%;
+}
+
+.ThirdLine {
+    transform: scale(0.5);
+    margin-top: -0.5rem;
+    left: -6.375rem;
+    width: 145%;
+}
+
+.license {
+    margin-top: -1.5rem;
+    left: 18.5rem;
+    z-index: 9999;
+}
+
+.newsimg {
+    width: 9.625rem;
+    height: 5.375rem;
+}
+
+.hideover {
+    width: 100%;
+    height: 5.375rem;
+}
+
+p>img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* .news_margin {
+    margin: 20px;
+} */
+
+#NewsDetails>div {
+    margin: 20px;
+}
+
+.overhide {
+    width: 100%;
+    overflow: hidden;
+    height: 3rem;
+    margin-bottom: 1rem;
+    /* margin-top: -0.3125rem; */
+}
+
+.test1,
+.test11 {
+    float: left;
+    width: 44%;
+    height: 4.375rem;
+}
+
+.test2,
+.test21 {
+    float: left;
+    width: 150px;
+    height: 90px;
+    font-size: 0.75rem;
+    margin-left: 1.25rem;
+    position: relative;
+}
+
+.news_date,
+.news_date1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.xxx,
+.xxx1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    margin: 0;
+}
+
+.newsbox,
+.newsbox1 {
+    height: 6.25rem;
+    margin-left: 10px;
+}
+
+.hideover1 {
+    width: 100%;
+    height: 5.375rem;
+}
+
+.titletext {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ReturnBtn,
+.ReturnBtn1 {
+    position: absolute;
+    right: 0;
+}
+
+#container {
+    width: 100%;
+    height: 200px;
+}
+
+.PutBottom {
+    margin-top: 18px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
+
+.zzz {
+    background-image: url("../image/bg.png");
+    text-align: center;
+    line-height: 35px;
+    background-size: cover;
+}

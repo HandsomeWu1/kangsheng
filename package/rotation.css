@@ -1,0 +1,84 @@
+#rotationbox {
+    width: 100%;
+    /* height: 75px; */
+    /* border: 1px solid red; */
+    position: relative;
+    overflow: hidden;
+}
+
+#rotationbox .pic li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+/*#box .pic li.show{*/
+
+
+/*display: block;*/
+
+
+/*}*/
+
+#rotationbox .tab {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 50%;
+    left: -45px;
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+#rotationbox .tab li {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 3px;
+    float: left;
+    background: #ccc;
+}
+
+#rotationbox .tab li:hover {
+    cursor: pointer;
+}
+
+#rotationbox .tab li.on {
+    background: #275A38;
+}
+
+#rotationbox .btn li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #eee;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    color: #fff;
+    display: none;
+}
+
+#rotationbox:hover .btn li {
+    display: block;
+}
+
+#rotationbox .btn li:hover {
+    cursor: pointer;
+    background: #ddd;
+}
+
+#rotationbox .btn li.left {
+    left: -2px;
+    border-radius: 0 50% 50% 0;
+}
+
+#rotationbox .btn li.right {
+    right: -2px;
+    border-radius: 50% 0 0 50%;
+}
