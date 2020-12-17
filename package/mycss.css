@@ -416,7 +416,7 @@ p>img {
 
 #container {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .PutBottom {
@@ -427,7 +427,7 @@ p>img {
 }
 
 .zzz {
-    background-image: url("../image/bg.png");
+    background-image: url("../image/bg.jpg");
     text-align: center;
     line-height: 35px;
     background-size: cover;

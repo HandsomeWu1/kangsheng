@@ -172,6 +172,12 @@ $(function() {
         navs[0].className = 'hide';
         navs[2].className = 'navchecked';
     })
+    var map = document.querySelector('#container');
+    var bottomimage = document.querySelector('#bottomimage');
+    var z = document.querySelector('#zzzzz');
+    // console.log(window.height - map.offsetTop - bottomimage.height);
+    console.log(z.offsetTop);
+    $(map).height(parseInt(window.screen.height - z.offsetTop - bottomimage.height));
 })
 
 function add(myid) {  
